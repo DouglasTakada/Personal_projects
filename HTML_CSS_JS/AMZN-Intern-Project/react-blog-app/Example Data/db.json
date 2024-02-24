@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "My First Blog!",
+            "body": "Oysters! :)",
+            "author": "Mario",
+            "id": 1
+        },
+        {
+            "title": "I like to Fix Pipes!",
+            "body": "Can we fix it?? Yes we can!",
+            "author": "Luigi",
+            "id": 2
+        },
+        {
+            "title": "I'm a Freaking SIMP",
+            "body": "Princess Peach 😍",
+            "author": "Toad",
+            "id": 3
+        }
+    ]
+}

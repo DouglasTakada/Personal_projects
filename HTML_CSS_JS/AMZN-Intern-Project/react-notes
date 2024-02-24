@@ -1,0 +1,52 @@
+Things I Learned###################
+
+Difference in JSX and HTML
+- JSX allows us to make HTMl style templates & components
+    In the background, Bable transpiles (converts) JSX into HTML
+    and then renders the HTML to the DOM
+- Adding Classes to elements
+    className vs. class - Gets converted to class when rendered in HTML
+
+Always export component function in each JSX file
+
+Components are always functions that must be returned and exported and imported
+    to be used
+
+Output dynamic values within components
+
+Given a data type, JSX always converts the data type into a string before displaying.
+
+Dynamic values as attribute values
+
+attribute = href - links to website
+
+App.js is the root component of the application - first component that gets rendered through the DOM
+    Meaning if you want to create a new componenet, the new componenets must be nested within the root
+    component (App.js)
+
+When importing a .css file, when it gets converted to html, it just copies the entire .css file at the
+    top of the file. So for smaller projects you can just have one large .css file
+
+State Hook just means variables that change that tell the DOM to re-render the webpage to update
+Ex. const [age, setAge] = useState(50);
+setAge('luigi');
+
+prop is basically how you can pass paramaters through functions. You can also deconstruct them to only use
+what you need
+
+CSS ########################################
+*{
+    //Targeting every element to style it the way this describes
+}
+
+Common Mistates lol:#######################
+import name is idenitcal to the actual file name if you modified it
+
+Cool Commands:############################
+
+npx create-react-app my-app
+
+sfc - stateless functional component
+
+CMD command:############################
+npx json-server --watch "Example Data"/db.json --port 8000
