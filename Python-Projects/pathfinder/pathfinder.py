@@ -3,6 +3,7 @@ from curses import wrapper
 import queue
 import time
 
+# Just checking if the repos work properly....
 maze = [
     ["#", "O", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"],
     ["#", " ", "#", " ", " ", " ", "#", " ", " ", " ", " ", " ", " ", " ", " ", "#"],
